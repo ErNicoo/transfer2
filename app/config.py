@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
-import os
-
-SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
-# PROJECTS_PER_PAGE = 4
+from os import environ
 
 load_dotenv()
+SQLALCHEMY_DATABASE_URI = environ.get('DATABASE_URL')
+# PROJECTS_PER_PAGE = 4
+
