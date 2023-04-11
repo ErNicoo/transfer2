@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+{{ super() }}
+<body>
+    <h1>Delete Project</h1>
+    <p>Are you sure you want to delete the project: {{ cancell.name }}?</p>
+    <form method="post">
+    <button type="submit">Yes, delete it</button>
+    <a href="{{ url_for('pages.projects') }}">No, go back</a>
+    </form>
+</body>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}My project page{% endblock %}
+
+{% block body %}
+
+{{ super() }}
+<h1>You are now watching the project: {{ project.name }}</h1>
+
+<footer>
+    <a href="/projects">Back to all projects</a>
+</footer>
+{% endblock %}

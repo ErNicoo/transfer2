@@ -1,0 +1,10 @@
+@media only screen and (min-width: 600px) {
+    h1 {
+        color: blueviolet;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    h1 {
+        color: rgb(176, 235, 15);
+    }
+}

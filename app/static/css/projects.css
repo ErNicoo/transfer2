@@ -1,0 +1,66 @@
+@media only screen and (min-width: 600px) {
+
+    .button {
+        background-color: #96c5f7;
+        padding: 15px;
+        border-radius: 40px;
+        border-color: black;
+        border-style: solid;
+        overflow: hidden;
+        grid-area: 2 / 6 / span 1 / span 2;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+      }
+    
+    .button a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+    .button a {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        padding: 20px;
+        text-align: center;
+      }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .button {
+        background-color: #96c5f7;
+        padding: 15px;
+        border-radius: 40px;
+        border-color: black;
+        border-style: solid;
+        overflow: hidden;
+        grid-area: 3 / 2 / span 1 / span 2;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+      }
+    
+    .button a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+    .button a {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        padding: 20px;
+        text-align: center;
+      }
+
+    .projectlist {
+        list-style-type: none;
+        color: rgb(255, 0, 0);
+        font-family: fantasy;   
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    
+}

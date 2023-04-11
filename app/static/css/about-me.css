@@ -1,0 +1,25 @@
+@media only screen and (min-width: 600px) {
+    .image {
+        grid-area: 2 / 2 / span 1 / span 2;
+    }
+    .box {
+        grid-area: 2 / 8 / span 1 / span 4;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+}  
+@media only screen and (max-width: 600px) {
+    .box {
+        grid-area: 2 / 2 / span 1 / span 2;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    .image {
+        display: flex;
+        grid-area: 4 / 2 / span 5 / span 2;
+        justify-content: center;
+    }
+}
