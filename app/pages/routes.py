@@ -43,3 +43,11 @@ def delete_project(project_id):
       db.session.commit()
       return redirect(url_for('pages.projects'))
     return render_template('pages/delete.html', cancell=cancell)
+
+@blueprint.route('/run-seed')
+def run_seed():
+    if not Project.query.filter_by(slug='cream-design').first():
+      import app.scripts.seed
+      return 'Database seed completed!'
+    else:
+      return 'Nothing to run.'
